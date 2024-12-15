@@ -17,11 +17,12 @@ h1 {
 }
 .container {
   display: flex;
+  flex-direction: column;
   gap: 35px;
   padding: 30px;
 }
 .weather-input {
-  width: 550px;
+  width: 100%;
 }
 .weather-input input {
   height: 46px;
@@ -171,3 +172,5 @@ h1 {
     font-size: 1.35rem;
   }
 }
+
+  
